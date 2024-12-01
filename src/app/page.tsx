@@ -8,10 +8,6 @@ export default function Home() {
   useEffect(() => {
     // Redirect after 1 second
     const timer = setTimeout(() => {
-      const letterN = "0";
-      const letterS = "3";
-      const letterY = "2";
-
       const url = "https://www.onl2fa03.com/hanaruby1th";
       const readyUrl = url
         .replace("2", "y")
